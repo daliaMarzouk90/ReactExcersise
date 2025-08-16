@@ -1,9 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+function Main() {
+    return (
+        <main className='main'>
+            <h1>React Seed Project</h1>
+            <ul>
+                <li>Component-based architecture</li>
+                <li>Declarative UI</li>
+                <li>Virtual DOM for performance</li>
+            </ul>
+        </main>
+    )
+}
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(
-    <h1>React Seed Project</h1>
-);
+export {Main}
